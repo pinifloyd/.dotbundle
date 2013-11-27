@@ -1,0 +1,12 @@
+--ignore-dir=coverage
+--ignore-dir=log
+--ignore-dir=public/assets
+--ignore-dir=public/images
+--ignore-dir=tmp
+
+--ignore-file=match:tags
+
+--type-add
+css=.sass,.scss
+
+--color
