@@ -8,6 +8,12 @@ fi
 
 alias vim='/Applications/MacVim.App/Contents/MacOS/Vim'
 
+function track_git_branches {
+  for remote in $(git branch -r | grep -v master); do
+    $(git checkout --track $remote)
+  done
+}
+
 GIT_PS1_SHOWUPSTREAM='auto'
 GIT_PS1_SHOWUNTRACKEDFILES='.'
 GIT_PS1_SHOWSTASHSTATE='.'
