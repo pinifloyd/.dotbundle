@@ -8,3 +8,8 @@
   excludesfile = ~/.gitignore
 [mergetool]
   keepBackup = true
+[alias]
+  co = checkout
+  br = branch
+  ci = commit
+  st = status
