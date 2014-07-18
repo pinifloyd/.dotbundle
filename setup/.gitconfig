@@ -1,13 +1,13 @@
 [user]
-  name = Sergey Hanchar
-  email = hanchar.sergey@gmail.com
+	name = Sergey Hanchar
+	email = hanchar.sergey@gmail.com
 [color]
   ui = true
 [core]
-  editor = mvim -f
+  editor = vim
   excludesfile = ~/.gitignore
 [mergetool]
-  keepBackup = true
+	keepBackup = true
 [alias]
   co = checkout
   br = branch
