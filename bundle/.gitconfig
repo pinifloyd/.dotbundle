@@ -1,0 +1,15 @@
+[user]
+	name = Sergey Hanchar
+	email = hanchar.sergey@gmail.com
+[color]
+  ui = true
+[core]
+  editor = vim
+  excludesfile = ~/.gitignore
+[mergetool]
+	keepBackup = true
+[alias]
+  co = checkout
+  br = branch
+  ci = commit
+  st = status
