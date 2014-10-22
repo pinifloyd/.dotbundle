@@ -1,0 +1,6 @@
+Usage: $ sh ~/path/to/script [flags]
+
+Flags:
+  -i | --interactive    Enable interactive mode
+  -v | --verbose        Enable verbose mode
+  -h | --help           Show help message
